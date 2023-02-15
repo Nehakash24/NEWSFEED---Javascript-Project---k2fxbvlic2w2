@@ -1,1 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: black;
+    color: white;
+    height: 65px;
+}
+.top-btn{
+    width: 100px;
+    height: 40px;
+}
+.top-btn img{
+    height: 40px;
+    width: 20px;
+}
 
+.img{
+    height: 60px;
+    width: 130px;
+    float: left;
+}
+
+.logo{
+    height: 60px;
+    width: 130px;
+    float: right;
+}
+.start{
+    height: 60px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1%;
+}
+.start img{
+    height: 60px;
+    margin-top: 7%;
+    width: 40px;
+    /* margin-left: 340px; */
+    margin-right: auto;
+    
+}
+.start h2{
+    /* margin-left: 340px !important; */
+    margin-right: auto;
+    font-weight: bold;
+    color: gray;
+    margin-top: 5%;
+    margin-top: 1%;
+}
+.main-div{
+    margin: auto;
+    top: 5%;
+  width: 70%;
+  height: 200px;
+  margin-top: 100px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 25px;
+}
+.top-text{
+    text-align: center;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    height: 50px;
+}
+#div-container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+#div-container .btn1{
+    margin-right: auto;
+    margin-left: 4%;
+}
+#div-container .btn2{
+    margin-left: auto;
+    margin-right: 4%;
+}
+.top-text h3{
+    position: relative;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+}
+#btn1{
+    display: inline-block;
+    /* margin-left: 33px; */
+    width: 197px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 76);
+    color: black;
+    font-weight: bold;
+}
+#btn2{
+    display: inline-block;
+    /* margin-left: 40px; */
+    width: 197px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 76);
+    color: white;
+    color: black;
+    font-weight: bold;
+}
+.second-div{
+    margin: auto;
+    top: 5%;
+  width: 70%;
+  margin-top: 100px;
+  padding: 10px;
+}
+.saved{
+    height: 55px;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 12px;
+}
+.btnx0{
+    height: 35px;
+    width: 210px;
+   background-color: white;
+   font-weight: bold;
+   margin-top: 8px;
+   margin-left: 5px;
+}
+.btnx{
+    height: 35px;
+    width: 120px;
+   background-color: white;
+   font-weight: bold;
+   margin-top: 8px;
+   margin-left: 5px;
+}
+.btnx1{
+    height: 30px;
+    width: 106px;
+    background-color: rgb(247, 247, 76);
+   border-radius: 10px;
+   font-weight: bold;
+   margin: 2px;
+}
+.btnx2{
+    height: 30px;
+    width: 190px;
+    background-color: rgb(247, 247, 76);
+   border-radius: 10px;
+   font-weight: bold;
+   margin-left: 0.5%;
+   margin-top: 0.5%;
+}
+.btnx3{
+    height: 30px;
+    width: 164px;
+    background-color: rgb(247, 247, 76);
+   border-radius: 10px;
+   font-weight: bold;
+   margin: 2px;
+}
+
+.textarea{
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* height: 100px; */
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 2%;
+}
+.textarea p{
+    margin-top: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding-bottom: 3%;
+}
+
+.myicon{
+    cursor: pointer;
+}
+
+.third-div{
+    margin: auto;
+    top: 5%;
+  width: 70%;
+  margin-top: 100px;
+  padding: 10px;
+}
+.categories{
+    height: 120px;
+    width: 100%;
+    /* overflow: auto; */
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 12px;
+}
+.oneline{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+.content{
+    text-align: center;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    height: 50px;
+    margin-top: 25px;
+}
+.right{
+    float: right;
+    font-size: 12px;
+}
+.left{
+    font-weight: bold;
+}
+i{
+    height: 5px;
+    width: 20px;
+    position:absolute;
+    right: 18px;
+    bottom: 25px;
+    color: black;
+    /* margin-left: 10%; */
+}
+.second-div .stored .myicon{
+    color: red;
+}
+.apid{
+    display: none;
+}
+.content .h2-2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    /* color: white; */
+    /* border: solid 1px black; */
+    text-decoration: wavy;
+}
